@@ -228,7 +228,6 @@ while(1)
                scanf("%d %d",&ur,&uc);
                if(!(ur==3&&uc==2)){printf("\nCom. choose : [3][2].And YOU LOSE.");printf("\nWant to play again? : ");getchar();scanf("%c",&ch);if(ch=='y'||ch=='Y')continue;else{break;}}
                else{printf("\nCom. choose : [3][3].Now you have to choose [1][3] & game is DRAW.");printf("\nWant to play again? : ");getchar();scanf("%c",&ch);if(ch=='y'||ch=='Y')continue;else{break;}}
-
            }
            else if(ur==1&&uc==3)
            {
@@ -266,7 +265,6 @@ while(1)
                if(ur==2&&uc==1){printf("\nCom. choose : [1][3].And YOU LOSE.");printf("\nWant to play again? : ");getchar();scanf("%c",&ch);if(ch=='y'||ch=='Y')continue;else{break;}}
                else if(ur==1&&uc==3){printf("\nCom. choose : [2][1].And YOU LOSE.");printf("\nWant to play again? : ");getchar();scanf("%c",&ch);if(ch=='y'||ch=='Y')continue;else{break;}}
                else if(ur==1&&uc==2){printf("\nCom. choose [2][1].And YOU LOSE.");printf("\nWant to play again? : ");getchar();scanf("%c",&ch);if(ch=='y'||ch=='Y')continue;else{break;}}
-
            }
            else if(ur==2&&uc==1)
            {
@@ -306,17 +304,14 @@ while(1)
                else{printf("\nCom. choose : [2][1].Now you have to choose [1][3] & game is DRAW.");printf("\nWant to play again? : ");getchar();scanf("%c",&ch);if(ch=='y'||ch=='Y')continue;else{break;}}
            }
         }
-        else if(ur==3&&uc==2)
-        {
+        else if(ur==3&&uc==2){
            printf("\nYou should prefer middle or corner places for first step..... ");continue;
         }
-        else if(ur==3&&uc==3)
-        {
+        else if(ur==3&&uc==3){
            printf("\nCom. choose : [2][2].");
            printf("\nYour turn. Enter row column : ");
            scanf("%d %d",&ur,&uc);
-           if(ur==3&&uc==1)
-           {
+           if(ur==3&&uc==1){
                  printf("\nCom. choose : [3][2].");
                printf("\nYour turn. Enter row column : ");
                scanf("%d %d",&ur,&uc);
@@ -541,7 +536,6 @@ while(1)
                 printf("\nYour turn. Enter row column : ");
                 scanf("%d %d",&ur,&uc);
                 if(!(ur==1&&uc==3)){printf("\nCom. choose : [1][3].And YOU LOSE");printf("\nWant to play again? : ");getchar();scanf("%c",&ch);if(ch=='y'||ch=='Y')continue;else{break;}}
-                //else if(ur==3&&uc==1)printf("\nCom. choose : [3][3].And game is DRAW.");
                 else{printf("\nCom. choose : [3][1].Now you have to choose [3][3]And game is DRAW.");printf("\nWant to play again? : ");getchar();scanf("%c",&ch);if(ch=='y'||ch=='Y')continue;else{break;}}
             }
             else if(ur==3&&uc==3)
